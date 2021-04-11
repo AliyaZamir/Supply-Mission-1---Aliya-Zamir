@@ -38,6 +38,8 @@ function setup() {
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
+	
+	obj1 = createSprite(50, 50, 10, 55)
 
 
 	Engine.run(engine);
